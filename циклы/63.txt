@@ -1,0 +1,12 @@
+print('Введите числа')
+a = int(input())
+sum = 0
+amount = 0
+while a != 0:
+    sum = a + sum
+    amount = amount + 1
+    a = int(input())
+if amount == 0:
+    print('Error')
+else:
+    print(sum / amount)
